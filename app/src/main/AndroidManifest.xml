@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="team56.mrurt">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity">
+        </activity>
+        <activity android:name=".activity.RegisterActivity">
+        </activity>
+        <activity android:name=".activity.HomepageActivity">
+        </activity>
+        <activity android:name=".activity.ProfileActivity">
+        </activity>
+        <activity android:name=".activity.MenuActivity">
+        </activity>
+        <activity
+            android:name=".activity.MovieListActivity"
+            android:label="@string/title_movie_list"
+            android:parentActivityName=".activity.HomepageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.HomepageActivity" />
+        </activity>
+        <activity
+            android:name=".activity.MovieDetailActivity"
+            android:label="@string/title_movie_detail"
+            android:parentActivityName=".activity.MovieListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MovieListActivity" />
+        </activity>
+        <activity android:name=".activity.SearchMovieActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RecommendMovieActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RECOMMEND" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RecommendListActivity"
+            android:label="@string/title_movie_list"
+            android:parentActivityName=".activity.HomepageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.HomepageActivity" />
+        </activity>
+        <activity android:name=".activity.AdminActivity">
+        </activity>
+        <activity android:name=".activity.ForgetPasswordActivity">
+        </activity>
+    </application>
+
+</manifest>

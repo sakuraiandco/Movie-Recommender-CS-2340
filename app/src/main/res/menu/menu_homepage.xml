@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.HomepageActivity">
+
+    <item android:id="@+id/logout_id"
+        android:title="@string/logout"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:menuCategory="secondary"/>
+
+    <item
+        android:id="@+id/profile_id"
+        android:orderInCategory="2"
+        android:title="@string/profile"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/search_id"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        android:menuCategory="secondary"/>
+    <item android:id="@+id/recommend_id"
+        android:title="@string/recommend"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="4"
+        android:menuCategory="secondary"/>
+
+</menu>

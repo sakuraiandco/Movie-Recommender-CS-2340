@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">映画おすすめ</string>
+    <string name="login_button">ログイン</string>
+    <string name="register_button">登録</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="action_register_short">登録</string>
+    <string name="enter_pass_again">入力されたパスワードは正しくありません。</string>
+
+    <string name="prompt_username">ユーザーネーム</string>
+    <string name="prompt_name">名前</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">メールアドレス</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in_short">ログイン</string>
+    <string name="action_register">登録</string>
+
+    <string name="error_invalid_email">このメールアドレスを使用できません。</string>
+    <string name="error_invalid_password">入力されたパスワードは正しくありません</string>
+    <string name="error_field_required">入力必須項目</string>
+    <string name="search_hint">名前またメールアドレスを入力してください</string>
+    <string name="title_movie_list">映画</string>
+    <string name="title_movie_detail">説明</string>
+
+    <string name="logout">ログアウト</string>
+    <string name="profile">プロフィール</string>
+    <string name="search">検索</string>
+    <string name="recommend">おすすめ</string>
+    <string name="major">専攻</string>
+    <string name="ban">無効にする</string>
+    <string name="rateMovie">映画を評価</string>
+    <string name="searchMovie">映画を検索</string>
+    <string name="recommend_by_my_major">専攻のおすすめ</string>
+    <string name="new_releases">ニューリリース</string>
+    <string name="unlock">有効にする</string>
+    <string name="select_your_year">年間を選択</string>
+    <string name="recent_dvds">新発売DVD</string>
+    <string name="click_recommend_major">専攻のおすすめ</string>
+    <string name="save_changes">変更を保存</string>
+    <string name="by_year">年間</string>
+
+    <string name="isBanned">%1$s のアクセスは禁止されています</string>
+    <string name="admin">%1$s はアドミニストレータアカウント</string>
+    <string name="active">%1$s はアクティブ</string>
+    <string name="unbanned">%1$s を使用するようになりました</string>
+
+    <string name="submit">確認</string>
+    <string name="recover_by_username">ユーザーネームを入力</string>
+    <string name="recover_by_email">メールアドレスを入力</string>
+    <string name="forgot_password">パスワードを忘れた場合</string>
+
+    <string name="incorrectInfo">もう一度試してください</string>
+
+    <string name="rateMovie1to5">１～５のなかから評価してください</string>
+    <string name="rateThisMovie">この映画を評価</string>
+    <string name="rate">評価</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="invalidEmail">有効なメールアドレスを入力してください。</string>
+    <string name="invalidUsername">有効なユーザーネームを入力してください。</string>
+    <string name="invalidName">有効な名前を入力してください</string>
+    <string name="invalidMajor">適切な専攻を入力してください</string>
+    <string name="invalidPassword">３以上の数字や文字を入力してください。</string>
+    <string name="usernameAlreadyTaken">このユーザーネームはもう登録されています</string>
+</resources>

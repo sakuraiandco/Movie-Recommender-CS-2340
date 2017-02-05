@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recomendar Peliculas</string>
+    <string name="login_button">Entrar</string>
+    <string name="register_button">Registracion</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="action_register_short">Registra</string>
+    <string name="enter_pass_again">Introduza su contraseña de nuevo</string>
+
+    <string name="prompt_username">Usuario</string>
+    <string name="prompt_name">Nombre</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electronico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_register">Registrar</string>
+
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="gold">#ffd700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <string name="error_invalid_email">Su correo electronico es invalido</string>
+    <string name="error_invalid_password">Su Contraseña no es correcta</string>
+    <string name="error_field_required">Esta informacion es necesaria</string>
+    <string name="search_hint">Introduzca su nombre o correo electronico</string>
+    <string name="title_movie_list">Pelicula</string>
+    <string name="title_movie_detail">Detalles</string>
+
+    <string name="logout">Cerrar Sesión</string>
+    <string name="profile">Perfil</string>
+    <string name="search">Buscar</string>
+    <string name="recommend">Recomendar</string>
+    <string name="major">Carrera</string>
+    <string name="ban">Suspender</string>
+    <string name="rateMovie">Calificar Pelicula</string>
+    <string name="searchMovie">Buscar Pelicula</string>
+    <string name="recommend_by_my_major">Recomendar por carrera</string>
+    <string name="new_releases">Nuevos Estenos</string>
+    <string name="unlock">Desbloquear</string>
+    <string name="select_your_year">Selecione un año</string>
+    <string name="recent_dvds">DVDs Recientes</string>
+    <string name="click_recommend_major">Haga click para recomendar por carrera</string>
+    <string name="save_changes">Cuardar cambios</string>
+    <string name="by_year">Por año</string>
+
+    <string name="isBanned">%1$s esta supendido</string>
+    <string name="admin">%1$s es un administrador</string>
+    <string name="active">%1$s esta activo</string>
+    <string name="unbanned">%1$s esta reactivado</string>
+
+    <string name="submit">Someter</string>
+    <string name="recover_by_username">Recuperar con usuario</string>
+    <string name="recover_by_email">Recuperar con correo electronico</string>
+    <string name="forgot_password">¿Se le olvido su Contraseña?</string>
+
+    <string name="incorrectInfo">Su informacion esta incorrecta por favor intente de nuevo</string>
+
+    <string name="rateMovie1to5">Clasifiqué esta pelicula de 1 a 5 estellas</string>
+    <string name="rateThisMovie">Clasifiqué esta pelicula</string>
+    <string name="rate">Clasificar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="invalidEmail">Correo Electronico Invalido</string>
+    <string name="invalidUsername">Usuario Invalido</string>
+    <string name="invalidName">Nombre Invalido</string>
+    <string name="invalidMajor">Carrera Invalida</string>
+    <string name="invalidPassword">Su Contraseña no lo suficientemente larga</string>
+    <string name="usernameAlreadyTaken">Este Usuario ya esta registrado</string>
+</resources>

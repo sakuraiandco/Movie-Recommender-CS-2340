@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Movie Recommendations</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="action_register_short">Register</string>
+    <string name="enter_pass_again">Enter Password Again</string>
+
+    <string name="prompt_username">Username</string>
+    <string name="prompt_name">Name</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_register">Register</string>
+
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="gold">#ffd700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="search_hint">Enter a Name or Email Address</string>
+    <string name="title_movie_list">Movies</string>
+    <string name="title_movie_detail">Movie Detail</string>
+
+    <string name="logout">LogOut</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="recommend">Recommend</string>
+    <string name="major">Major</string>
+    <string name="ban">Ban</string>
+    <string name="rateMovie">Rate Movie</string>
+    <string name="searchMovie">Search Movies</string>
+    <string name="recommend_by_my_major">Recommend by My Major</string>
+    <string name="new_releases">New Releases</string>
+    <string name="unlock">Unlock</string>
+    <string name="select_your_year">Select your Year</string>
+    <string name="recent_dvds">Recent DVDs</string>
+    <string name="click_recommend_major">Or click here to recommend by major</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="by_year">By Year</string>
+
+    <string name="isBanned">%1$s is banned.</string>
+    <string name="admin">%1$s is an admin.</string>
+    <string name="active">%1$s is active.</string>
+    <string name="unbanned">%1$s is now unbanned.</string>
+
+    <string name="submit">Submit</string>
+    <string name="recover_by_username">Recover by Username</string>
+    <string name="recover_by_email">Or recover by Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="incorrectInfo">Your info is incorrect. Please try again.</string>
+
+    <string name="rateMovie1to5">Rate this movie 1 to 5 stars</string>
+    <string name="rateThisMovie">Rate this movie</string>
+    <string name="rate">Rate</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="invalidEmail">Invalid Email</string>
+    <string name="invalidUsername">Invalid Username</string>
+    <string name="invalidName">Invalid Name</string>
+    <string name="invalidMajor">Invalid Major</string>
+    <string name="invalidPassword">Your Password is too Short</string>
+    <string name="usernameAlreadyTaken">This username is already in use</string>
+</resources>
